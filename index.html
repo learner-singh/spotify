@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./assets/stylesheets/main.css" />
+    <script src="https://use.fontawesome.com/c3427b7f24.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container">
+        <!-- Side Menu -->
+        <menu>
+            <div class="row">
+                <div id="widgets">
+                    <div id="widget-1">
+                        <div id="logo">
+                            <img src="assets/images/spotify-logo.png" alt="logo" class=".w-nkm100" />
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#home"><i class="fa-solid fa-house"></i></a>
+                                <a href="#home">Home</a>
+                            </li>
+                            <li>
+                                <a href="#home"><i class="fa-solid fa-magnifying-glass"></i></a>\
+                                <a href="#">Search</a>
+                            </li>
+                            <li>
+                                <a href="#home"><i class="fa-solid fa-square-poll-vertical"></i></a>
+                                <a href="#">Your Library</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="widget-2">
+                        <div>
+                            <a href="#"><i class="fa-solid fa-square-plus"></i><span> Create PlayList</span></a>
+                        </div>
+                        <div>
+                            <a href="#"><i class="fa-solid fa-heart"></i><span> Liked Songs</span></a>
+                        </div>
+                    </div>
+                    <div id="my-playlist">
+                        <ul>
+                            <li>
+                                <a href="#">My Playlist #1</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="app">
+                        <a href="#"><i class="fa-regular fa-circle-down"></i><span> Install App</span></a>
+                    </div>
+                </div>
+                <div id="side-line"></div>
+            </div>
+        </menu>
+
+        <!-- Main Body -->
+        <main>
+            <!-- Navigation Bar -->
+            <nav>
+                <div class="row">
+                    <div id="nav-left">
+                        <div class="nav-icon">
+                            <a href="#"><i class="fa-solid fa-chevron-left"></i></a>
+                            <span class="nav-icon-text">Go back</span>
+                        </div>
+                        <div class="nav-icon">
+                            <a href="#"><i class="fa-solid fa-chevron-right"></i></a>
+                            <span class="nav-icon-text">Go forward</span>
+                        </div>
+                    </div>
+                    <div id="nav-right">
+                        <div class="row">
+                            <div id="nav-btn-1" class="nav-btn"><abbr title="Upgrade to Premium">Upgrade</abbr></div>
+                            <div class="nav-btn" id="nav-btn-2">
+                                <abbr title="Singh"><i class="fa-regular fa-user" id="user"></i></abbr>
+                                <span id="username">Singh</span>
+                                <i class="fa-solid fa-sort-down"></i>
+                                <span id="username-text">Singh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div id="home">
+                <section class="section">
+                    <div class="row">
+                        <div class="heading row">
+                            <h2><a href="#">Recently Played</a></h2>
+                            <span><a href="#">SEE &nbsp;ALL</a></span>
+                        </div>
+                        <div class="cards row">
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-1</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1,</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-2</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-3</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-4</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+                <section class="section">
+                    <div class="row">
+                        <div class="heading row">
+                            <h2><a href="#">Recomended for today</a></h2>
+                            <span><a href="#">SEE &nbsp;ALL</a></span>
+                        </div>
+                        <div class="cards row">
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-1</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1,</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-2</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-3</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-content">
+                                    <img src="./assets/images/album-image.webp" alt="Album Image" />
+                                    <div class="play-btn">
+                                        <i class="fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="album">
+                                        <h3><a href="#">Album name-4</a></h3>
+                                    </div>
+                                    <div class="artist">
+                                        <a href="#">Artist Name -1</a>
+                                        <a href="#">Artist Name -2</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer (Audio Player) -->
+        <footer>
+            <div class="row">
+                <div id="music-details">
+                    <div class="row">
+                        <div id="music-img">
+                            <img src="./assets/images/album-image.webp" alt="Album Image" />
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </div>
+                        <div id="details">
+                            <div id="name-1"><a href="#">Song Name</a></div>
+                            <div id="name-2">
+                                <span>
+                                    <a href="#">Artist Name 1,</a><a href="#">Artist Name 2</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div id="like" class="icon">
+                            <a href="#"><i class="fa-regular fa-heart"></i></a>
+                            <span class="icon-text">Save to Your Library</span>
+                        </div>
+                        <div id="pip" class="icon">
+                            <a href="#"><i class="fa-regular fa-window-maximize"></i></a>
+                            <span class="icon-text">Picture in picture</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="music-player">
+                    <div class="row">
+                        <div id="player-buttons">
+                            <div class="row">
+                                <div id="shuffle" class="icon">
+                                    <a href="#"><i class="fa-solid fa-shuffle"></i></a>
+                                    <span class="icon-text">Enable shuffle</span>
+                                </div>
+                                <div id="previous" class="icon">
+                                    <a href="#"><i class="fa-solid fa-backward-step"></i></a>
+                                    <span class="icon-text">Previous</span>
+                                </div>
+                                <div id="play" class="icon">
+                                    <a href="#"><i class="fa-solid fa-play"></i></a>
+                                    <span class="icon-text">Play</span>
+                                </div>
+                                <div id="next" class="icon">
+                                    <a href="#"><i class="fa-solid fa-forward-step"></i></a>
+                                    <span class="icon-text">Next</span>
+                                </div>
+                                <div id="repeat" class="icon">
+                                    <a href="#"><i class="fa-solid fa-repeat"></i></a>
+                                    <span class="icon-text">Enable repeat</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="player-duration">
+                            <span>0:00</span>
+                            <span><input type="range" /></span>
+                            <span>5:34</span>
+                        </div>
+                    </div>
+                </div>
+                <div id="music-controller">
+                    <div class="row">
+                        <div id="lyrics" class="icon">
+                            <a href="#"><i class="fa-solid fa-pen-fancy"></i></a>
+                            <span class="icon-text">Lyrics</span>
+                        </div>
+                        <div id="Queue" class="icon">
+                            <a href="#"><i class="fa-solid fa-bars-staggered"></i></a>
+                            <span class="icon-text">Queue</span>
+                        </div>
+                        <div id="device" class="icon">
+                            <a href="#"><i class="fa-solid fa-fax"></i></a>
+                            <span class="icon-text">Connect to a device</span>
+                        </div>
+                        <div id="volume">
+                            <div id="mute" class="icon">
+                                <a href="#"><i class="fa-solid fa-volume-high"></i></a>
+                                <span class="icon-text">Mute</span>
+                                <input type="range" />
+                            </div>
+                            <div id="unmute">
+                                <a href="#"><i class="fa-solid fa-volume-xmark"></i></a>
+                                <input type="range" max="0" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
