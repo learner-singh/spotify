@@ -79,7 +79,7 @@ menu .row {
     left: 4px; */
 }
 #side-line:hover {
-    border-right: 2px solid #727272;
+    border-right: 1px solid #727272;
     width: 2px;
     padding: 0px 3px;
 }
@@ -411,6 +411,7 @@ footer > .row{
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #282828;
+    z-index: 21;
 }
 
 footer #music-details {
